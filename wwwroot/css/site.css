@@ -1,0 +1,131 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification\ 
+for details on configuring this project to bundle and minify static web assets. */
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#header{
+    height: 50px;
+    width: 900px;
+    padding: 10px;
+    border: 2px solid black;
+    border-bottom: none;
+}
+#header h4, #header p, #header a{
+    display: inline-block;
+    vertical-align: top;
+}
+#header h4{
+    margin-right: 500px;
+}
+#header p{
+    margin-right: 45px;
+}
+#content{
+    min-height: 500px;
+    width: 900px;
+    border: 2px solid black;
+    padding: 25px 75px;
+}
+#msgText{
+    height: 75px;
+    width: 750px;
+    resize: none;
+}
+#msgBtn{
+    height: 35px;
+    width: 135px;
+    margin-left: 615px;
+    margin-bottom: 10px;
+    background-color: steelblue;
+    color: white;
+}
+.msgHead{
+    font-weight: bold;
+    font-size: small;
+}
+.msgBody{
+    margin-left: 15px;
+}
+#cmntHead{
+    margin-left: 15px;
+}
+.cmntText{
+    height: 65px;
+    width: 735px;
+    margin-left: 15px;
+    resize: none;
+}
+.cmntBtn{
+    height: 35px;
+    width: 135px;
+    margin-left: 615px;
+    margin-bottom: 10px;
+    background-color: limegreen;
+    color: white;
+}
+.cmntHead{
+    font-weight: bold;
+    font-size: small;
+    margin-left: 15px;
+}
+.cmntBody{
+    margin-left: 15px;
+}
+
+
+/* OLD CSS BELOW */
+.head{
+    margin-bottom: 20px;
+}
+.head h1{
+    display: inline-block;
+    width: 75%;
+}
+.head a{
+    display: inline-block;
+}
+.head a:last-of-type{
+    margin-left: 5%;
+}
+
+form{
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+}
+form:first-child{
+    margin-right: 100px;
+}
+form h1{
+    margin-bottom: 35px;
+    margin-left: 50px;
+}
+
+.row{
+    margin-bottom: 10px;
+}
+.row label{
+    height: 25px;
+    width: 100px;
+    margin-top: 10px;
+}
+.row span{
+    color: red;
+    margin-left: 100px;
+}
+.row input[type="text"], input[type="password"]{
+    width: 200px;
+}
+.row input[type="submit"]{
+    width: 90px;
+    margin-top: 25px;
+    margin-left: 25%;
+}
